@@ -6,11 +6,10 @@ import { FormsModule } from '@angular/forms';
 import { MaterialLibraryModule } from '../assets/libs/material/material-library/material-library.module';
 
 import { AppComponent } from './app.component';
-import { HelloComponent } from './hello.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule, MaterialLibraryModule],
-  declarations: [AppComponent, HelloComponent],
+  declarations: [AppComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
