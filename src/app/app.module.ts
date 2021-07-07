@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 
 // ASSETS
@@ -9,7 +10,12 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { AppComponent } from './app.component';
 
 @NgModule({
-  imports: [BrowserModule, FormsModule, MaterialLibraryModule],
+  imports: [
+    BrowserModule,
+    BrowserAnimationsModule,
+    FormsModule,
+    MaterialLibraryModule
+  ],
   declarations: [AppComponent],
   bootstrap: [AppComponent]
 })
