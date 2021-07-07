@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 
 // ASSETS
 import { MaterialLibraryModule } from '../assets/libs/material/material-library/material-library.module';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { AppComponent } from './app.component';
 
