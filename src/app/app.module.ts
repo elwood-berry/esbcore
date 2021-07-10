@@ -20,7 +20,8 @@ import { AppComponent } from './app.component';
     BrowserModule,
     BrowserAnimationsModule,
     FormsModule,
-    MaterialLibraryModule
+    MaterialLibraryModule,
+    FlexLayoutModule
   ],
   declarations: [AppComponent],
   bootstrap: [AppComponent]
