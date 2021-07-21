@@ -1,16 +1,71 @@
 # LEADS 
-JSON file for sample data for leads form.
+JSON file for sample data for leads form:  
 
-## .01 FIRST NAME  **   
-**Type**: String    
-**Required**: True  
-**Description**: The user's first name.
-```JSON 
-[
-  {
-    "first_name": "John"
-  }
-]
+1. Lead ID  
+1. First Name ** 
+1. Last Name **  
+1. Title    
+1. Department  
+
+1. Account Type  
+1. Sells Rep **   
+1. Email **  
+1. Lead Source  
+1. Phone  
+
+1. Status  
+
+
+
+
+1. account name [+]
+1. billing address1 [+]
+1. billing address2 [+]
+1. billing city [+]
+1. billing country [+]
+
+1. billing postal [+]
+1. billing state [+]
+1. corp identity [+]
+// 1. country code
+// 1. country code
+
+1. department
+1. description
+1. email
+1. exten.
+1. fa
+
+1. first name
+1. last name
+1. lead source
+1. lead source
+1. notes.
+
+1. phone
+1. phone
+1. referred by.
+1. sales rep
+1. shipping address1
+
+1. shipping address2
+1. shipping city.
+1. shipping country.
+1. shipping postal.
+1. shipping state.
+1. status.
+
+1. title
+1. website.
+
+---  
+
+
+## DATA: Table Of Contents. 
+
+## .00 LIStUS  **  
+
+
 ```   
 ## .02 LAST NAME **  
 **Type**: String
@@ -19,7 +74,7 @@ JSON file for sample data for leads form.
 ```JSON 
 [
   {
-    "last_name": "John"
+    "last_name": "Doe"
   }
 ]
 ``` 
@@ -120,7 +175,7 @@ JSON file for sample data for leads form.
   ]
 ]
 ```
-## .10 STATUS  
+## STATUS  
 **Type**: String  
 **Required**: False  
 **Description**: The user's status as a lead.
@@ -165,12 +220,90 @@ JSON file for sample data for leads form.
 ## .14 REFERRED BY      
 **Type**: String  
 **Required**: False  
-**Description**: Notes for this lead.
+**Description**: ?????
 ```JSON 
 [
   "notes": "Notes for ipsum dolor amet, adipiscing elit. Praesent vitae posuere ligula."
 ]
 ```
+
+## .15 REFERRED BY PHONE  
+**Type**: String  
+**Required**: False  
+**Description**: The user's primary phone.
+```JSON 
+[
+  "phone": [
+    "phoneId": 0
+    "type": [
+      "mobile",
+      "land line"
+    ],
+    "country_code":[469, 214, 976],
+    "phone_number": 1234567,
+    "phone_extension": 0000
+  ]
+]
+```
+## .15 FAX 
+**Type**: String  
+**Required**: False  
+**Description**: The user's primary phone.
+```JSON 
+[
+  "phone": [
+    "phoneId": 0
+    "type": [
+      "mobile",
+      "land line"
+    ],
+    "country_code":[469, 214, 976],
+    "phone_number": 1234567,
+    "phone_extension": 0000
+  ]
+]
+```
+## .16 Website
+**Type**: String  
+**Required**: False  
+**Description**: The user's primary phone.
+```JSON 
+[
+  "phone": [
+    "phoneId": 0
+    "type": [
+      "mobile",
+      "land line"
+    ],
+    "country_code":[469, 214, 976],
+    "phone_number": 1234567,
+    "phone_extension": 0000
+  ]
+]
+````
+```
+## .17 Website
+**Type**: String  
+**Required**: False  
+**Description**: The user's primary phone.
+```JSON 
+[
+  "phone": [
+    "phoneId": 0
+    "type": [
+      "mobile",
+      "land line"
+    ],
+    "country_code":[469, 214, 976],
+    "phone_number": 1234567,
+    "phone_extension": 0000
+  ]
+]
+````
+
+
+
+
 ## .15 LEAD SOURCE       
 **Type**: String  
 **Required**: False  

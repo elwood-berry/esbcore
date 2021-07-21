@@ -3,37 +3,37 @@ import { EmailValidator } from "@angular/forms"
 import { repeat } from "rxjs/dist/types"
 
 export interface Lead {
-  first name 
-  last name 
-  title 
-  department
   account name
-  sales rep 
-  email.
-  lead source.
-  country code.
-  phone
-  exten.
-  status.
-  corp identity 
-  description.
-  notes.
-  referred by.
-  lead source.
-  country code.
-  phone
-  fax 
-  website.
   billing address1
   billing address2
   billing city.
-  billing state.
-  billing postal.
-  billing country.
+  billing country
+  billing postal
+  billing state
+  corp identity
+  country code
+  country code
+  department
+  description
+  email
+  exten.
+  fa
+  first name
+  last name
+  lead source
+  lead source
+  notes.
+  phone
+  phone
+  referred by.
+  sales rep
   shipping address1
   shipping address2
   shipping city.
-  shipping state.
-  shipping postal.
   shipping country.
+  shipping postal.
+  shipping state.
+  status.
+  title
+  website.
 }
