@@ -13,6 +13,9 @@ import { FormsModule } from '@angular/forms';
 import { MaterialLibraryModule } from '../assets/libs/material/material-library/material-library.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
+// CORE:MATERIAL
+import { CoreSelectComponent } from './components/material/core-select/core-select.component';
+
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -23,7 +26,7 @@ import { AppComponent } from './app.component';
     MaterialLibraryModule,
     FlexLayoutModule
   ],
-  declarations: [AppComponent],
+  declarations: [AppComponent, CoreSelectComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
