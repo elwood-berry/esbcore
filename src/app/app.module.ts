@@ -7,7 +7,7 @@ This code is brought to you by Elwood Berry @www.elwoodberry.com
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 // ASSETS
 import { MaterialLibraryModule } from '../assets/libs/material/material-library/material-library.module';
@@ -23,6 +23,7 @@ import { AppComponent } from './app.component';
     BrowserModule,
     BrowserAnimationsModule,
     FormsModule,
+    ReactiveFormsModule,
     MaterialLibraryModule,
     FlexLayoutModule
   ],
